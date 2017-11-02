@@ -1,0 +1,27 @@
+body {
+background-image: url(https://n6-img-fp.akamaized.net/free-vector/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victorian-seamless-texture-for-wallpapers-textile-wrapping-exquisite-floral-baroque-template_1217-639.jpg?size=338&ext=jpg);
+}
+
+img {
+  width: 400px;
+  display: block;
+}
+
+#buttons {
+  font-size: 30px; 
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+
+h5 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Pacifico', cursive;
+  margin: 20px;
+}
+
+.text {
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}

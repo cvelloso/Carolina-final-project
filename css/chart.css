@@ -1,0 +1,10 @@
+#container {
+  width: 100%;
+  height: 400px;
+}
+
+/* I added this element in because it also changes the dot color along the x-axis to match the color of the bars. */
+
+rect.highcharts-point {
+  fill: orangered;
+}

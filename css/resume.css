@@ -1,0 +1,123 @@
+body {
+  background-color: #ecf2f9;
+}
+
+#wrapper {
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* I changed the fonts to ones that had at least a 90% rate in both Windows and Mac on CSS Font Stack. */
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #8cd98c;
+  font-family: Trebuchet MS, serif;   
+}
+
+h2 {
+  text-align: center;
+  font-weight:normal;
+  font-size: 20px;
+  font-family: Trebuchet MS, serif;  
+}
+
+h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Trebuchet MS, serif;  
+}
+
+h4 {
+  text-align: center;
+  font-size: 25px;
+  background-color: #99bbff;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+p, ul, li { 
+  font-family: Tahoma, sans-serif;
+  font-size: 17px;  
+}
+
+.University {
+font-size: 20px;
+padding: 5px;
+}
+
+.degree {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;  
+}
+
+.date {
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.thesis {
+  font-size: 17px;
+  margin: 10px;
+}
+
+.jobs {
+  font-size: 20px;
+  padding: 6px;
+}
+
+.extras {
+  font-size: 18px;
+}
+
+#name {
+  border: 2px solid ##1B0682;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+/* I changed the font colors back to black, for uniformity and professionalism. */
+
+/* Although my default layout was responsive to different-sized screens, I wanted to leave a few values in the media queries, just to practice using them. */
+
+@media only screen and (max-width: 2000px) {
+  p {
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  h4 {
+    color: #000000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 20px;
+    color: 	#000000;
+  }
+   h4 {
+    color: #000000;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+   font-size: 20px;
+   color: #000000;
+  }
+  
+  h4 {
+    color: #000000;
+  }
+  
+  .date {
+    font-size: 18px;
+  }
+}
